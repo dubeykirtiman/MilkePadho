@@ -1,0 +1,39 @@
+.doubt-page {
+  max-width: 700px;  
+  margin: 120px auto 50px; 
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.doubt-page h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.post-doubt-container {
+  margin-bottom: 25px;
+}
+
+
+.doubt-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+@media (max-width: 768px) {
+  .doubt-page {
+    margin-top: 140px; 
+    padding: 20px;
+  }
+}

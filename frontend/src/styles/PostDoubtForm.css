@@ -1,0 +1,73 @@
+.post-doubt-form {
+  width: 90%;
+  max-width: 600px;
+  margin: 80px auto 20px; 
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.post-doubt-form h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+
+.post-doubt-form input,
+.post-doubt-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.post-doubt-form input:focus,
+.post-doubt-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.2);
+}
+
+
+.post-doubt-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+
+.post-doubt-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.post-doubt-form button:hover {
+  background-color: #218838;
+}
+
+
+@media (max-width: 768px) {
+  .post-doubt-form {
+    margin-top: 100px; 
+    width: 95%;
+  }
+
+  .post-doubt-form h3 {
+    font-size: 20px;
+  }
+}
