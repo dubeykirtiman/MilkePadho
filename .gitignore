@@ -1,0 +1,12 @@
+# Ignore application.properties (Backend Configuration)
+backend/src/main/resources/application.properties
+
+# Ignore node_modules and build files (Frontend)
+frontend/node_modules/
+frontend/build/
+
+# Ignore IDE and system files
+*.log
+.DS_Store
+.vscode/
+.idea/
