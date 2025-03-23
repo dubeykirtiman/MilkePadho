@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MilkePadho Doubt Discussion Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Doubt Discussion Portal</h1>
+
+    <div id="post-doubt">
+        <input type="text" id="subjectInput" placeholder="Enter subject (Physics, Chemistry, etc.)">
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <textarea id="doubtInput" placeholder="Enter your doubt"></textarea>
+        <button onclick="postDoubt()">Post Doubt</button>
+    </div>
+
+    <h2>Doubts by Subject</h2>
+    <div id="subjectSelector">
+        <button onclick="fetchDoubts('Physics')">Physics</button>
+        <button onclick="fetchDoubts('Chemistry')">Chemistry</button>
+        <button onclick="fetchDoubts('Maths')">Maths</button>
+        <button onclick="fetchDoubts('Biology')">Biology</button>
+        <button onclick="fetchDoubts('Computer')">Computer</button>
+    </div>
+
+    <div id="doubtList"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
